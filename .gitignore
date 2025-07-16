@@ -1,16 +1,55 @@
+# Python cache files
 __pycache__/
-*.pyc
-*.pkl
-*.log
+*.py[cod]
+*.pyo
+
+# Environment
 .env
 venv/
-models/
+env/
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Data files (avoid leaking datasets)
 data/
-mlruns/
+*.csv
+*.tsv
+*.xlsx
+
+# Model artifacts
+*.pkl
+models/
+*.joblib
+
+# Logs and databases
+*.log
 *.sqlite
 *.db
-*.DS_Store
-*.ipynb_checkpoints
-.env
-.idea/
-.vscode/
+mlruns/
+mlruns.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.tar
+*.img
+
+# Reports
+*.pdf
+
+# Ignore evaluation artifacts
+*.png
+*.jpg
+*.jpeg
+
+# Flask static/cache folders (optional)
+__flask_cache__/
+instance/
