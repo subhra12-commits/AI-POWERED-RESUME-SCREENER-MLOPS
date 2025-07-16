@@ -55,21 +55,12 @@ resume-screener/
 git clone https://github.com/your-username/resume-screener.git
 cd resume-screener
 2. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Run the Flask app locally
-bash
-Copy
-Edit
 python app/app.py
 🖥 Visit: http://127.0.0.1:5000
 
 🐳 Run with Docker
-bash
-Copy
-Edit
 docker build -t resume-screener .
 docker run -p 5000:5000 resume-screener
 🔁 Pipeline Overview
