@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pkl
+*.log
+.env
+venv/
+models/
+data/
+mlruns/
+*.sqlite
+*.db
+*.DS_Store
+*.ipynb_checkpoints
+.env
+.idea/
+.vscode/
