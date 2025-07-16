@@ -43,9 +43,7 @@ resume-screener/
 ├── README.md # This file
 └── utils/ # Helper scripts: parsing, scoring, preprocessing
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -53,7 +51,7 @@ Edit
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/your-username/resume-screener.git
 cd resume-screener
 2. Install dependencies
