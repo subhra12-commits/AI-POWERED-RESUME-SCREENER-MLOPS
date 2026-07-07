@@ -1,3 +1,10 @@
+# AI-Powered Resume Screener
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-Web_App-green)
+![MLflow](https://img.shields.io/badge/MLflow-Tracking-orange)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 # 🧠 Resume Screener - AI-Based Candidate Filtering
 
 **"Let AI read resumes, match job requirements, and shortlist the right candidates—instantly."**
